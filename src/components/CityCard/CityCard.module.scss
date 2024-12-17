@@ -1,0 +1,42 @@
+.cityCard {
+  background: #d9dada;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  .cityHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    color: #343a40;
+    font-weight: 600;
+  }
+
+  .weatherIcon {
+    width: 40px;
+    height: 40px;
+  }
+
+  p {
+    margin: 6px 0;
+    font-size: 1rem;
+    color: #495057;
+  }
+
+  .btn {
+    margin-top: 12px;
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
+}
+  
